@@ -5,12 +5,14 @@ import img_bp from './img_bp.png'
 import header_img from './header_img.png'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.svg'
+import brand_img from './brand_img.png'
 
 export const assets = {
     logo,
     header_img,
     menu_icon,
-    cross_icon
+    cross_icon,
+    brand_img
 }
 
 export const workPrograms = [
