@@ -21,7 +21,7 @@
               <ul className='hidden md:flex gap-7 text-white py-7'>
                   <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
                   <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
-                  <a href="#Programs" className='cursor-pointer hover:text-gray-400'>Work Programs</a>
+                  <a href="#Programs" className='cursor-pointer hover:text-gray-400'>Programs</a>
                   <a href="#Committe" className='cursor-pointer hover:text-gray-400'>Committee</a>
               </ul>
               <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign Up</button>
@@ -35,7 +35,7 @@
             <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
               <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a>
               <a onClick={()=> setShowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
-              <a onClick={()=> setShowMobileMenu(false)} href="#Programs" className='px-4 py-2 rounded-full inline-block'>Work Programs</a>
+              <a onClick={()=> setShowMobileMenu(false)} href="#Programs" className='px-4 py-2 rounded-full inline-block'>Programs</a>
               <a onClick={()=> setShowMobileMenu(false)} href="#Committe" className='px-4 py-2 rounded-full inline-block'>Committe</a>
             </ul>
           </div>
