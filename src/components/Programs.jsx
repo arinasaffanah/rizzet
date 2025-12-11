@@ -29,10 +29,10 @@ const Programs = () => {
                             <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
                                 <h2 className='text-xl font-semibold text-gray-800 '>{program.title}</h2>
                                 <p className='text-sm text-gray-500'>
-                                    {program.pic} (PIC)<span></span>
+                                    PIC: {program.pic}<span></span>
                                 </p>
-                                <p className='text-xs text-gray-500'>
-                                    {program.supervisor} (Supervisor)<span></span>
+                                <p className='text-sm text-gray-500'>
+                                    Supervisor: {program.supervisor}<span></span>
                                 </p>
                             </div>
                         </div>
