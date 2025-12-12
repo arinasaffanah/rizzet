@@ -136,14 +136,6 @@ export const committeeData = [
         text: "So good!"
     },
     {
-        name: "Stefi",
-        title: "RnD Analyst Associates",
-        image: profile_img_1,
-        alt: 'pict',
-        rating: 5,
-        text: "So good!"
-    },
-    {
         name: "Alvin",
         title: "RnD Analyst Associates",
         image: profile_img_1,
