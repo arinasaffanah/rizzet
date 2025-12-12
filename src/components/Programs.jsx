@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { assets, workPrograms } from '../assets/assets'
 
 const Programs = () => {
@@ -6,8 +6,23 @@ const Programs = () => {
 const [currentIndex, setCurrentIndex] = useState(0);
 const [cardsToShow, setCardsToShow] = useState(1);
 
+useEffect(() => {
+const updateCardsToShow = ()=> {
+    if(window.innerWidth >= 1024){
+        setCardsToShow(workPrograms.length);
+    } else {
+        setCardsToShow(1)
+    }
+};
+    updateCardsToShow();
+
+    window.addEventListener('resize', updateCardsToShow);
+    return ()=> window.removeEventListener('resize', updateCardsToShow);
+    
+}, [])
+
 const nextProgram = ()=> {
-    setCurrentIndex((prevIndex) => prevIndex + 1 % workPrograms.length)
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % workPrograms.length)
 }
 
 const prevProgram = ()=> {
@@ -33,7 +48,9 @@ const prevProgram = ()=> {
         {/* programs slider container */}
 
         <div className='overflow-hidden'>
-            <div className='flex gap-8 transition-transform duration-500 ease-in-out'>
+            <div className='flex gap-8 transition-transform duration-500 ease-in-out'
+            style={{transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`}}
+            >
                 {workPrograms.map((program, index)=>(
                     <div key={index} className='relative shrink-0 w-full sm:w-1/4'>
                         <img src={program.image} alt={program.title} className='w-full h-auto mb-14' />
