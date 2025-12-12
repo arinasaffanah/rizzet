@@ -24,7 +24,11 @@
                   <a href="#Programs" className='cursor-pointer hover:text-gray-400'>Work Programs</a>
                   <a href="#Committee" className='cursor-pointer hover:text-gray-400'>Committee</a>
               </ul>
-              <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign Up</button>
+              <button className='hidden md:block bg-white px-4 py-2 rounded-full'>
+                <a href="mailto:research.studentsxceosjakarta@gmail.com">
+                  <img src={assets.emails_icon} alt="" className='w-5 h-5' />
+                </a>
+              </button>
               <img onClick={()=> setShowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
           </div>
           {/* mobile menu */}

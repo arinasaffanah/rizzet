@@ -15,6 +15,9 @@ import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
 import star_icon from './star_icon.svg'
+import logo_dark from './logo_dark.svg'
+import emails_icon from './emails_icon.svg'
+import instagram_icon from './instagram_icon.svg'
 
 export const assets = {
     logo,
@@ -24,7 +27,10 @@ export const assets = {
     brand_img,
     left_arrow,
     right_arrow,
-    star_icon
+    star_icon,
+    logo_dark,
+    emails_icon,
+    instagram_icon
 }
 
 export const workPrograms = [
