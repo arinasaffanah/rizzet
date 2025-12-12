@@ -11,6 +11,10 @@ import right_arrow from './right_arrow.svg'
 import project_img_1 from './project_img_1.jpg'
 import project_img_2 from './project_img_2.jpg'
 import project_img_3 from './project_img_3.jpg'
+import profile_img_1 from './profile_img_1.png'
+import profile_img_2 from './profile_img_2.png'
+import profile_img_3 from './profile_img_3.png'
+import star_icon from './star_icon.svg'
 
 export const assets = {
     logo,
@@ -19,7 +23,8 @@ export const assets = {
     cross_icon,
     brand_img,
     left_arrow,
-    right_arrow
+    right_arrow,
+    star_icon
 }
 
 export const workPrograms = [
@@ -73,17 +78,85 @@ export const workPrograms = [
     },
 ]
 
-export const feedbackPrograms = [
+export const committeeData = [
     {
-        division: "HR",
+        name: "Ilmi",
+        title: "Chief Research Officer",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
         text: "So good!"
     },
     {
-        division: "Operations",
-        text: "So nice!"
+        name: "Arina",
+        title: "Manager of Research",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
     },
     {
-        division: "Finance",
-        text: "So cool!"
+        name: "Khayla",
+        title: "Manager of Research",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Louisa",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Bella",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Stefi",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Syahrani",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Stefi",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Alvin",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
+    },
+    {
+        name: "Grace",
+        title: "RnD Analyst Associates",
+        image: profile_img_1,
+        alt: 'pict',
+        rating: 5,
+        text: "So good!"
     }
 ]
